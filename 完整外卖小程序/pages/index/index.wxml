@@ -1,0 +1,19 @@
+<!--index.wxml-->
+<view>
+  <swiper indicator-dots="{{indicatorDots}}" autoplay="{{autoplay}}" interval="{{interval}}" duration="{{duration}}">
+    <block wx:for="{{imgUrls}}" wx:key="{{index}}">
+      <swiper-item>
+        <!-- <image class="swiper-image" src="{{item}}" /> -->
+        <imageLoader default-image='../../img/tooopen_sy_143912755726.jpg' mode='widthFix' original-image='{{item}}' width="100%"/>
+      </swiper-item>
+    </block>
+  </swiper>
+  <OrderItem wx:for="{{list}}" wx:key="{{index}}"
+      picture="{{item.picture}}"
+      shop="{{item.shop}}"
+      product="{{item.product}}"
+      price="{{item.price}}"
+      ifCommented="{{item.ifCommented}}"
+      bindtap="onDetailClick"
+      bind:addCartEvent="addCartEvent"  data-id='{{item.id}}'/>
+</view>

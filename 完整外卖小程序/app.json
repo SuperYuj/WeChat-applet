@@ -1,0 +1,44 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/cart/cart",
+    "pages/my/my",
+    "pages/address/address",
+    "pages/detail/detail"
+  ],
+  "window": {
+    "backgroundTextStyle": "dark",
+    "navigationBarBackgroundColor": "#FF0000",
+    "navigationBarTitleText": "外卖APP",
+    "navigationBarTextStyle": "white"
+  },
+  "tabBar": {
+    "color": "white",
+    "selectedColor": "green",
+    "backgroundColor": "#332F4F",
+    "position": "bottom",
+    "borderStyle": "black",
+    "list": [{
+        "pagePath": "pages/index/index",
+        "text": "商品",
+        "iconPath": "./img/my_health_community_un.png",
+        "selectedIconPath": "./img/my_health_community_on.png"
+      },
+      {
+        "pagePath": "pages/cart/cart",
+        "text": "购物车",
+        "iconPath": "./img/my_health_consult_un.png",
+        "selectedIconPath": "./img/my_health_consult_on.png"
+      },
+      {
+        "pagePath": "pages/my/my",
+        "text": "我的",
+        "iconPath": "./img/my_account_un.png",
+        "selectedIconPath": "./img/my_account_on.png"
+      }
+
+    ]
+  }
+  
+
+}

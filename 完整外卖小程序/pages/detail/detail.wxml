@@ -1,0 +1,72 @@
+<view class="main">
+    <view class="bg">
+        <image class="bgimg" src="{{product.picture}}"></image>
+    </view>
+    <view class="product">
+        <view class="productName">{{product.product}}</view>
+        <view class="suggest">
+            <text class="lefts">月售1132份</text>
+            <text class="rights">好评率100%</text>
+        </view>
+        <view class="price">
+            <text class="newprice">￥{{product.price-5}}</text>
+            <text class="oldprice">￥{{product.price}}</text>
+            <button class="shopping" bindtap="addCartClick">加入购物车</button>
+        </view>
+    </view>
+    <view class="introduce">
+        <view class="intTitle">商品介绍</view>
+        <view class="inttext">{{product.shop}}一碗皮蛋瘦肉粥，总是我到粥店时的不二之选。香浓暖滑，饱腹暖心，皮蛋的q滑与瘦肉的滑嫩</view>
+    </view>
+    <view class="introduce">
+        <view class="intTitle">商品评价</view>
+        <view class='assesslist'>
+            <text class='first common'>全部</text>
+            <text class='second common'>推荐</text>
+            <text class='third common'>吐槽</text>
+        </view>
+        <view class="allowconent">
+            <text class="iconfont allowimg"></text>
+            <text class="allowtitle">只看有内容的评价</text>
+        </view>
+        <view class="assessconent">
+            <view>
+                <text class="timer">2016-07-07 12:34</text>
+                <image class="userimg" src="../../images/profile.png" />
+                <text class="user">张三</text>
+            </view>
+            <view class="assessint">
+                <text class="iconfont dzimg"></text>
+                <text class="assesslr">太少了，只够一个人吃</text>
+            </view>
+        </view>
+        <view class="assessconent">
+            <view>
+                <text class="timer">2016-07-07 12:34</text>
+                <image class="userimg" src="../../images/profile.png" />
+                <text class="user">张三</text>
+            </view>
+            <view class="assessint">
+                <text class="iconfont dzimg"></text>
+                <text class="assesslr">太少了，只够一个人吃</text>
+            </view>
+        </view>
+        <view class="assessconent">
+            <view>
+                <text class="timer">2016-07-07 12:34</text>
+                <image class="userimg" src="../../images/profile.png" />
+                <text class="user">张三</text>
+            </view>
+            <view class="assessint">
+                <text class="iconfont dzimg"></text>
+                <text class="assesslr">太少了，只够一个人吃</text>
+            </view>
+        </view>
+            <view class="buttomFix">
+                <text class="shoppingCar iconfont" bindtap="toNavCart"></text>
+                <text class="total">￥{{amount}}</text>
+                <text class="transport">另需配送费￥4元</text>
+                <text class="startPrice">￥20起送</text>
+            </view>
+    </view>
+</view>

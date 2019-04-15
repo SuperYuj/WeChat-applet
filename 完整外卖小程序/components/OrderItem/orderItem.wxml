@@ -1,0 +1,19 @@
+<view class='orderItem' >
+    <view class='orderItem__containner'>
+        <view class='orderItem__picContainner'>
+            <!-- <image alt='' class='orderItem__pic' src='{{picture}}' /> -->
+            <imageLoader default-image='../../img/pic1.png' mode='widthFix' original-image='{{picture}}' width="100%" />
+        </view>
+        <view class='orderItem__content'>
+            <view class='orderItem__product'>{{product}}</view>
+            <view class='orderItem__shop'>{{shop}}</view>
+            <view class='orderItem__detail'>
+                <view class='orderItem__price'>￥{{price}}</view>
+                <view class='orderItem__btn '>
+                    <button class='orderItem__btn--gray' wx:if="{{ifCommented}}">已加入</button>
+                    <button class='orderItem__btn--red' wx:else  catchtap='_addCartEvent'>加入购物车</button>
+                </view>
+            </view>
+        </view>
+    </view>
+</view>

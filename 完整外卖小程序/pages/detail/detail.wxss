@@ -1,0 +1,53 @@
+/* pages/detail/detail.wxss */
+@font-face {
+    font-family: 'iconfont';  /* project id 1056418 */
+    src: url('http://at.alicdn.com/t/font_1056418_jo03wqy2dx.eot');
+    src: url('http://at.alicdn.com/t/font_1056418_jo03wqy2dx.eot?#iefix') format('embedded-opentype'),
+    url('http://at.alicdn.com/t/font_1056418_jo03wqy2dx.woff2') format('woff2'),
+    url('http://at.alicdn.com/t/font_1056418_jo03wqy2dx.woff') format('woff'),
+    url('http://at.alicdn.com/t/font_1056418_jo03wqy2dx.ttf') format('truetype'),
+    url('http://at.alicdn.com/t/font_1056418_jo03wqy2dx.svg#iconfont') format('svg');
+  }
+  .iconfont{
+      font-family:"iconfont" !important;
+      font-size:16rrpx;font-style:normal;
+      -webkit-font-smoothing: antialiased;
+      -webkit-text-stroke-width: 0.2rpx;
+      -moz-osx-font-smoothing: grayscale;}
+.main{background: #f3f5f7;padding-bottom:80rpx;}
+.bg{height: 350rpx;width: 100%;}
+.bgimg{height: 100%;width: 100%;}
+.product{background: #fff;border-bottom: 1rpx solid #ccc;padding-top: 36rpx;}
+.productName{font-size: 28rpx;font-weight: 700;line-height: 28rpx;color: rgb(7,17,27);margin-left: 36rpx;margin-top: 36rpx}
+.suggest{margin-top: 16rpx;color:rgb(147, 153,159) ; margin-left: 36rpx;font-size: 20rpx;line-height: 20rpx;}
+.rights{margin-left: 24rpx;}
+.price{font-weight:normal/700;line-height: 48rpx;margin-left: 36rpx;margin-top: 36rpx}
+.newprice{font-size: 20rpx/28rpx;color: rgb(240, 20, 20)}
+.oldprice{font-size: 20rpx;color: rgb(147, 153, 159)}
+.shopping{font-size: 20rpx;height: 48rpx;width: 160rpx;border-radius: 24rpx;background:rgb(0, 160, 220);color: #fff;float: right;margin-right: 36rpx }
+.introduce{margin-top: 32rpx;background: white;padding-top: 36rpx;}
+.intTitle{font-size: 32rpx;color: black;margin-top: 36rpx;margin-left: 36rpx}
+.inttext{margin-left: 36rpx;margin-top: 12rpx; font-size: 24rpx;font-weight: 200;color:rgb(77, 85, 93);line-height: 48rpx}
+.assesslist{margin-top: 36rpx;margin-right: 36rpx;margin-left:36rpx;padding-bottom: 36rpx;border-bottom: 1rpx solid #ccc}
+.common{font-size: 24rpx/16rpx;border-radius: 5rpx;line-height: 32rpx;color: white;padding: 10rpx 24rpx}
+.first{background: rgb(0, 160, 220);}
+.second{background: rgb(77, 85, 93);margin-left: 16rpx}
+.third{background:  rgba(77, 85, 93,0.2);margin-left: 16rpx}
+.allowconent{margin-top: 24rpx;padding-bottom: 24rpx;border-bottom:1rpx solid #ccc; }
+.allowimg{font-size: 48rpx;color: rgb(147, 153, 159);line-height: 48rpx;margin-left: 36rpx;}
+.allowimg:before { content: "\e63d"; }
+.allowtitle{font-size: 24rpx;line-height: 48rpx;margin-left: 8rpx; color: rgb(147, 153, 159)}
+.assessconent{padding: 24rpx 0;border-bottom: 1rpx solid #ccc;margin-left: 36rpx;margin-right: 36rpx;}
+.timer,.user{font-size: 20rpx;color: rgb(147, 153, 159);line-height: 24rpx}
+.user{float: right;}
+.userimg{height: 24rpx;width: 24rpx;border-radius:50%;float: right;}
+.dzimg{font-size: 24rpx;color: rgb(147, 153, 159);line-height: 48rpx;}
+.dzimg:before { content: "\e60e"; }
+.assessint{margin-top: 12rpx}
+.assesslr{font-size: 24rpx;margin-left: 8rpx;color: rgb(7,17,27);line-height: 32rpx}
+.buttomFix{font-size: 26rpx; position: fixed;bottom: 0;left: 0;height: 80rpx;width: 100%;background: #141c27;line-height: 80rpx;color: #808589;}
+.shoppingCar{position: fixed;bottom: 10rpx;left: 30rpx; border: 10rpx solid #141c27 ; border-radius: 50%; height: 80rpx;width: 80rpx;text-align: center; display: inline-block;background: #2b343d;font-size: 40rpx;}
+.shoppingCar:before { content: "\e63a"; }
+.total{margin-left: 140rpx;font-weight: bold;}
+.transport{margin-left: 15rpx;padding: 5rpx 15rpx;border-left: 1rpx solid #424951;}
+.startPrice{text-align: center; height: 100%;width: 200rpx;float: right;display: inline-block;background: #2b343b;}

@@ -1,0 +1,8 @@
+{
+  "navigationBarTitleText": "商品",
+  "usingComponents": {
+    "OrderItem" : "/components/OrderItem/orderItem",
+    "imageLoader":"/components/ImageLoader/imageLoader"
+  },
+  "enablePullDownRefresh" : true
+}
